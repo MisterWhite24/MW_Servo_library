@@ -85,7 +85,7 @@ It's library for **STM32duino** analog servo motors with **speed control** using
  **adds** servo with defined pin, deafult minimal pulse, deafult max pulse and defined range
  (if range is **not** defined range value is **deafult**) to **array**.
 
-`addServo(pin, minnimal pulse, max pulse, servo range in degrees = 180)` Check if this timer channel is used by
+`addServo(pin, minimal pulse, max pulse, servo range in degrees = 180)` Check if this timer channel is used by
  only **one servo** and if so **adds** servo with defined pin, defined minimal pulse, defined max pulse and defined range
  (if range is **not** defined range value is **deafult**) to **array** and **maps** pulses to **16bit PWM**.
 
