@@ -1,0 +1,39 @@
+#######################################
+# Syntax Coloring Map for pg_servo
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+MServo		KEYWORD1
+SManager KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+enable			KEYWORD2
+disable			KEYWORD2
+addServoByPulseWidth	KEYWORD2
+setSpeed		KEYWORD2
+move			KEYWORD2
+moveBy			KEYWORD2
+moveTime		KEYWORD2
+moveByTime		KEYWORD2
+jump			KEYWORD2
+jumpBy			KEYWORD2
+addServo		KEYWORD2
+begin			KEYWORD2
+update			KEYWORD2
+isEnabled		KEYWORD2
+getServoRange		KEYWORD2
+getSpeed		KEYWORD2
+getChannel		KEYWORD2
+getIndex		KEYWORD2
+getTimer		KEYWORD2
+getServo		KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+SERVO_COUNT		LITERAL1
+SMANAGER_TIMER		LITERAL1
+PWM_FREQ		LITERAL1
